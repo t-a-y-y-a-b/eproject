@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <!-- BOOTSTRAP CSS LINK -->
+    <link rel="stylesheet" href="./asets/boostrap/css/bootstrap.min.css" type="text/css">
+    <!-- FONTAWESOME LINK -->
+    <link rel="stylesheet" href="./asets/fontawesome/css/all.min.css" type="text/css">
+    <!-- CSS LINK  -->
+    <link rel="stylesheet" href="./asets/style.css" type="text/css">
+    <!-- <style>
+        body {
+            background: url(./assets/images/contactus1.png);
+        }
+    </style> -->
+</head>
+
+<body>
+    <!-- ===================== HEADER WORK START HERE ========================= -->
+
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-light bg-secondary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./asets/images/headericon.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 " id="header-bottom">
+                        <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="./index.html"><i
+                                    class="fa-solid fa-house"></i>HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"><i class="fa-regular fa-address-card"></i>ABOUT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="menu-area" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false"><i
+                                    class="fa-brands fa-product-hunt"></i>
+                                PRODUCT
+                            </a>
+                            <ul class="dropdown-menu" id="mega-area" aria-labelledby="navbarDropdown">
+
+                                <li><a class="dropdown-item" href="./HARDWAER.html">HARDWARE</a></li>
+                                <li><a class="dropdown-item" href="./software.html">SOFTWARE</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./CONTACT-US.HTML"><i
+                                    class="fa-solid fa-mobile-screen-button"></i>CONTACT-US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./FAQS&HELP.html"><i
+                                    class="fa-regular fa-circle-question"></i>HELP & FAQS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-2" href="./sign.html">SIGN IN</a>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===================== HEADER WORK END HERE =========================== -->
+    <!-- =================================== breadcrumb work start here ========================================================= -->
+    <div class="img" style="background-image: url(./asets/images/SIGNIN.jpg);">
+        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+            aria-label="breadcrumb">
+            <ol class="breadcrumb py-3 my-0" id="contact-breadcrumb" style="background-color:orange;">
+                <li class="breadcrumb-item px-3"><a href="./index.html"
+                        style=" text-decoration: none; color: white;">Home</a>
+                </li>
+                <li class="breadcrumb-item px-3"><a href="./about.html"
+                        style=" text-decoration: none; color: white;">ABOUT</a>
+                </li>
+                <li class="breadcrumb-item px-3"><a href="./HARDWAER.html"
+                        style=" text-decoration: none; color: white;">PRODUCT</a></li>
+                <li class="breadcrumb-item px-3"><a href="./CONTACT-US.HTML"
+                        style=" text-decoration: none; color: white;">CONTACT-US</a></li>
+                <li class="breadcrumb-item px-3"><a href="./FAQS&HELP.html"
+                        style=" text-decoration: none; color: white;">HELP AND FAQS</a></li>
+                                 <li class="breadcrumb-item px-3"><a href="./FAQS&HELP.html"
+                        style=" text-decoration: none; color: white;">HELP AND FAQS</a></li>
+                <li class="breadcrumb-item active text-light" aria-current="page">SIGN UP</li>
+            </ol>
+        </nav>
+        <!-- =================================== breadcrumb work end here ========================================================= -->
+        <!-- ===================================================== sign up form start here ================================================= -->
+        <section class="vh-80 my-5">
+            <div class="container h-80">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-lg-12 col-xl-11">
+                        <div class="card text-black" style="border-radius: 25px;">
+                            <div class="card-body p-md-5">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+                                        <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+
+                                        <form class="mx-1 mx-md-4">
+
+                                            <div class="d-flex flex-row align-items-center mb-4">
+                                                <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                                <div class="form-outline flex-fill mb-0">
+                                                    <input type="text" id="form3Example1c" class="form-control" />
+                                                    <label class="form-label" for="form3Example1c">Your Name</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="d-flex flex-row align-items-center mb-4">
+                                                <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                                                <div class="form-outline flex-fill mb-0">
+                                                    <input type="email" id="form3Example3c" class="form-control" />
+                                                    <label class="form-label" for="form3Example3c">Your Email</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="d-flex flex-row align-items-center mb-4">
+                                                <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                                                <div class="form-outline flex-fill mb-0">
+                                                    <input type="password" id="form3Example4c" class="form-control" />
+                                                    <label class="form-label" for="form3Example4c">Password</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="d-flex flex-row align-items-center mb-4">
+                                                <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                                                <div class="form-outline flex-fill mb-0">
+                                                    <input type="password" id="form3Example4cd" class="form-control" />
+                                                    <label class="form-label" for="form3Example4cd">Repeat your
+                                                        password</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-check d-flex justify-content-center mb-5">
+                                                <input class="form-check-input me-2" type="checkbox" value=""
+                                                    id="form2Example3c" />
+                                                <label class="form-check-label" for="form2Example3">
+                                                    I agree all statements in <a href="#!">Terms of service</a>
+                                                </label>
+                                            </div>
+
+                                            <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                                                <button type="button" class="btn btn-primary btn-lg">Register</button>
+                                            </div>
+
+                                        </form>
+
+                                    </div>
+                                    <div
+                                        class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+
+                                        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                                            class="img-fluid" alt="Sample image">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===================================================== sign up form start here ================================================= -->
+
+        <!-- ======================================================= footer section start here ========================================== -->
+
+
+
+        <footer class="text-center text-lg-start text-dark" style="background-color: #ecf0f1">
+
+            <section class="d-flex justify-content-between p-4 text-white" style="background-color: black">
+
+                <div class="me-5">
+                    <span>Get connected with us on social networks:</span>
+                </div>
+                <div>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+
+            </section>
+            <section class="" style="background-color: black;">
+                <div class="container text-center text-md-start ">
+
+                    <div class="row " id="footer-color">
+
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                            <h6 class="text-uppercase fw-bold">PC ~ centre</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; color: white; height: 2px" />
+                            <p>
+                                PC ~ centre offers an outstanding customer service experience with it’s experienced,
+                                cooperative and dedicated staff and with modern technology which offers worth to your
+                                money.
+                                With a supportive customer base and ever-growing potential we are now becoming the best
+                                online computers shop in Pakistan
+                            </p>
+                        </div>
+
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" id="header-link">
+
+                            <h6 class="text-uppercase fw-bold">Useful links</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; color: white; height: 2px" />
+                            <p>
+                                <a href="./index.html" class="text-light">HOME</a>
+                            </p>
+                            <p>
+                                <a href="./about.html" class="text-light">ABOUT</a>
+                            </p>
+                            <p>
+                                <a href="./FAQS&HELP.html" class="text-light">HELP & FAQS</a>
+                            </p>
+                            <p>
+                                <a href="./CONTACT-US.HTML" class="text-light">CONTACT-US</a>
+                            </p>
+                            <p>
+                                <a href="./sign.html" class="text-light">SIGN IN </a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" id="header-links">
+
+                            <h6 class="text-uppercase fw-bold">Products</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; color: white; height: 2px" />
+                            <p>
+                                <a href="./HARDWAER.html" class="text-light">HARDWAER</a>
+                            </p>
+                            <p>
+                                <a href="./software.html" class="text-light">SOFTWARE</a>
+                            </p>
+
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h6 class="text-uppercase fw-bold">Contact</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; color: white; height: 2px" />
+                                <p><i class="fas fa-home mr-3"></i>Muslim cutchi khatri society scheme#33 gulzare hijri karachi</p>
+                                <p><i class="fas fa-envelope mr-3"></i>Tayyabismail01@gmail.com</p>
+                                <p><i class="fas fa-phone mr-3"></i> +923237027932</p>
+                                <p><i class="fas fa-print mr-3"></i> +923340282538</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <div class="text-center p-3 text-light navbar-light bg-secondary">
+                © 2020 Copyright:
+                <a class="text-light" href="./index.html" id="footer-bottom-link">MyOnlineshop.com</a>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!-- ======================================================= footer section end here ========================================== -->
+
+
+</body>
+<SCript src="./asets/boostrap/js/bootstrap.min.js"></SCript>
+
+</html>
